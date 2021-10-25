@@ -1,14 +1,110 @@
+* {
+    margin: 0;
+}
+
 header {
     background: rgb(90, 134, 230) url("../img/pattern.png");
     background-size: 300px;
     height: 80px;
     position: relative;
+    margin-bottom: 10px;
 }
 
-img {
+main {
+    margin-left: 5px;
+}
+
+#logo {
     width: 150px;
     overflow: hidden;
     position: absolute;
     bottom: 10px;
     left: 5px;
+}
+
+#char-blue {
+    color: rgb(90, 134, 230);
+}
+
+.paragraph-gray {
+    color: lightslategray;
+}
+
+.small {
+    font-size: 11px;
+}
+
+.paragraph-gray small {
+    margin-bottom: 10px;
+}
+
+.article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#highlighted {
+    background-color: yellow;
+}
+
+ul{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.table {
+    display: table;
+}
+
+.object {
+    display: table-cell;
+    font-weight: bold;
+    color: white;
+    background-color:#00aff2;
+    height: 20px;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    width: 300px;
+    height: 60px;
+    display: table-cell;
+    text-align: justify;
+}
+
+.last-cell {
+    height: 60px;
+}
+
+.lightblue {
+    background-color: #87CEFA;
+}
+
+footer {
+    margin-left: 5px;
+}
+
+.img {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 5px;
+    position: relative;
+    color: white;
+}
+
+.monitor {
+    background: red url(../img/monitor.jpg) no-repeat;
+}
+
+.graph {
+    background: red url(../img/graph.jpg) no-repeat;
+}
+
+div > h3 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
