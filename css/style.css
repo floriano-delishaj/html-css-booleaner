@@ -43,7 +43,7 @@ main {
     margin-bottom: 15px;
 }
 
-#highlighted {
+.highlighted {
     background-color: yellow;
 }
 
@@ -72,7 +72,7 @@ ul{
     width: 300px;
     height: 60px;
     display: table-cell;
-    text-align: justify;
+    padding-left: 165px;
 }
 
 .last-cell {
